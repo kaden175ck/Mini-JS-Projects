@@ -16,7 +16,19 @@
     background-color: blue;
     position: relative;
     top:150px;
-    animation: character 1s;
+    /* animation: jump 500ms infinite; */
+    
+}
+
+.animate{
+    animation: jump 500ms;
+}
+
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
 }
 
 #block{
@@ -24,26 +36,14 @@
     height:20px;
     background-color: black;
     position: relative;
-    top: 30px;
+    top: 130px;
     left: 480px;
     animation: block 1s infinite linear;
 }
 
 @keyframes block{
-    0%{
-        left: 480px;
-    }
-    100%{
-        left: -20px;
-    }
+    0%{left: 480px; }
+    100%{left: -40px;}
 }
 
-@keyframes character{
-    0%{
-        top: 40px;
-    }
-    30%{
-        top: 40px;
-    }
 
-}
