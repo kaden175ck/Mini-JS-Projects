@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+#overall{
+    width:500px;
+    height:200px;
+    border:1px solid black;
+}
+
+#character{
+    width:20px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    top:150px;
+    animation: character 1s;
+}
+
+#block{
+    width:20px;
+    height:20px;
+    background-color: black;
+    position: relative;
+    top: 30px;
+    left: 480px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block{
+    0%{
+        left: 480px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+
+@keyframes character{
+    0%{
+        top: 40px;
+    }
+    30%{
+        top: 40px;
+    }
+
+}
