@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, green, whitesmoke);
+}
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* avoid using align items here because it will have all items in center but seperate */
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+/* select all button in gird */
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid whitesmoke;
+    outline: none;
+    /* remove the defualt outline provide by browser */
+    background: rgba(255, 255, 255, 0.75);
+    /* last number is opacity */
+}
+
+.calculator-grid > button:hover {
+    background: rgba(255, 255, 255, 0.9);
+    /* the last number is opacity, the higher the number the more opaque the color */
+}
+
+.span-two {
+    grid-column: span 2;
+}
