@@ -1,1 +1,1 @@
-## Mini project 
+## Mini projects in different programming languages, see the README.md in each folder for more information.
