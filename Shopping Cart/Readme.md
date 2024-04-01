@@ -1,1 +1,0 @@
-## Shopping Cart built with JS, HTML, CSS
