@@ -1,1 +1,1 @@
-## Basic Form validation using JavaScript and HTLM
+## Basic Form validation using Vinilla JavaScript, HTML and CSS
