@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script defer src="script.js"></script>
+    <!-- defer this so that it load after the body -->
+</head>
+
+
+<body>
+    <div id="error"></div>
+
+
+    <!-- you don't do \ in action because that would be root,
+    you keep  it empty so that its current -->
+    <form id="form" action="" method="GET">
+        <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text">
+
+            <!-- <input id="name" name="name" type="text" required>
+            this line of code can replace JS name checking block of code -->
+        </div>
+
+
+        <div>
+            <label for="passwd">Password</label>
+            <input id="passwd" name="passwd" type="password">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    
+</body>
+</html>

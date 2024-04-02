@@ -1,1 +1,1 @@
-## Form validation using JavaScript, HTLM and CSS
+## Basic Form validation using JavaScript and HTLM
