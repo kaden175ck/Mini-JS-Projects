@@ -98,5 +98,10 @@ form button:hover{
     padding: 0rem 0.5rem;
 }
 
+/* so that click on icon will still work */
+.fa-trash, .fa-check{
+    pointer-events: none;
+
+}
 
 
