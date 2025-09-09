@@ -9,4 +9,4 @@ A collection of small JavaScript toys, each built with simple **HTML + CSS + Jav
 - [Clock 时钟](https://kaden175ck.github.io/Mini-JS-Projects/Clock/)
 - [Dinosaur Game 恐龙小游戏](https://kaden175ck.github.io/Mini-JS-Projects/dinosaur%20game/)
 - [Form Validation 表单验证](https://kaden175ck.github.io/Mini-JS-Projects/Form%20Validation/)
-- [To Do List 待办事项清单](https://kaden175ck.github.io/Mini-JS-Projects/todolist2/To%20Do%20List/)
+- [To Do List 待办事项清单](https://kaden175ck.github.io/Mini-JS-Projects/To%20Do%20List/todolist2/)
