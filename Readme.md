@@ -1,7 +1,7 @@
 # Mini JS Projects | JavaScript 小项目合集
 
-A collection of small JavaScript projects, each built with simple **HTML + CSS + JavaScript**.  
-这里收集了一些用 **HTML + CSS + JavaScript** 编写的小型项目。
+A collection of small JavaScript toys, each built with simple **HTML + CSS + JavaScript**.  
+这里收集了一些用 **HTML + CSS + JavaScript** 编写的小型玩具。
 
 ## 📂 Live Demo 在线预览
 
