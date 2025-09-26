@@ -10,3 +10,4 @@ A collection of small JavaScript toys, each built with simple **HTML + CSS + Jav
 - [Dinosaur Game 恐龙小游戏](https://kaden175ck.github.io/Mini-JS-Projects/dinosaur%20game/)
 - [Form Validation 表单验证](https://kaden175ck.github.io/Mini-JS-Projects/Form%20Validation/)
 - [To Do List 待办事项清单](https://kaden175ck.github.io/Mini-JS-Projects/To%20Do%20List/todolist2/)
+- [Leads Tracker Chrome Extension](https://kaden175ck.github.io/Mini-JS-Projects/Chrome%20Extension/)
